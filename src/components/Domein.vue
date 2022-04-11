@@ -1,7 +1,9 @@
 <template>
     <div class="domein">
         <h2>{{ props.domein.Naam }}</h2>
-        <Subdomein v-for="(subdomein) in props.domein.Subdomeinen" :key="subdomein.Id" :subdomein="subdomein" />
+        <v-list>
+            <Subdomein v-for="(subdomein) in props.domein.Subdomeinen" :key="subdomein.Id" :subdomein="subdomein" />
+        </v-list>
     </div>
 </template>
 

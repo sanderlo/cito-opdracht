@@ -1,7 +1,7 @@
 <template>
-  <div class="subdomein">
-      <h2 v-text="subdomein.Naam" v-on:click="toonInfo()" />
-  </div>
+  <v-list-item class="subdomein" rounded="xl" v-on:click="toonInfo()" >
+      <span v-text="subdomein.Naam" />
+  </v-list-item>
 </template>
 
 <script setup>
@@ -14,8 +14,8 @@ const props = defineProps({
 
 function toonInfo() {
   store.dispatch('showModal', {
-      title: props.subdomein.Naam,
-      content: props.subdomein.Omschrijving
+      title: props.subdomein.Id + ' ' + props.subdomein.Naam,
+      content:  props.subdomein.Omschrijving
   });
 }
 
@@ -23,11 +23,10 @@ function toonInfo() {
 
 <style lang="scss">
 .subdomein {
-    h2 {
-        cursor: pointer;
+    cursor: pointer;
         &:hover{
-            background-color: #77cfcc;
-        }  
-    }
+          // border: 1px solid #77cfcc;
+          background-color: #77cfcc;
+        } 
 }
 </style>

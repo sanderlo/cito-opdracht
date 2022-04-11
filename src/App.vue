@@ -62,6 +62,11 @@ onMounted(() => {
     padding: 10px 5px;
   }
 
+  .v-list--density-default.v-list--one-line .v-list-item {
+    padding: 5px 10px;
+    min-height: 36px;
+  }
+
   #domein-list {
     columns: 3 300px;
     color: #7e9191;
