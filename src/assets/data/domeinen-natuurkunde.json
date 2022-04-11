@@ -1,0 +1,202 @@
+[
+	{
+		"Naam": "Vaardigheden",
+		"Subdomeinen": [
+			{
+				"Id": "A1",
+				"Naam": "Informatievaardigheden gebruiken",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A2",
+				"Naam": "Communiceren",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A3",
+				"Naam": "Reflecteren op leren",
+				"Omschrijving": "De kandidaat kan in contexten die vallen binnen subdomeinen van het centraal examen op basis van een gesteld probleem een ontwerp voorbereiden, uitvoeren, testen en evalueren"
+			},
+			{
+				"Id": "A4",
+				"Naam": "Studie en beroep",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A5",
+				"Naam": "Onderzoeken",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A6",
+				"Naam": "Ontwerpen",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A7",
+				"Naam": "Modelvorming",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A8",
+				"Naam": "Natuurwetenschappelijk instrumentarium",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A9",
+				"Naam": "Waarderen en oordelen",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A10",
+				"Naam": "Kennisontwikkeling en -toepassing",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A11",
+				"Naam": "Technisch-instrumentele vaardigheden",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A12",
+				"Naam": "Rekenkundige en wiskundige vaardigheden",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A13",
+				"Naam": "Vaktaal",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A14",
+				"Naam": "Vakspecifiek gebruik van de computer",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "A15",
+				"Naam": "Kwantificeren en interpreteren",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Beeld- en geluidstechniek",
+		"Subdomeinen": [
+			{
+				"Id": "B1",
+				"Naam": "Informatieoverdracht",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "B2",
+				"Naam": "Medische beeldvorming",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "B3",
+				"Naam": "Optica*",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Beweging en energie",
+		"Subdomeinen": [
+			{
+				"Id": "C1",
+				"Naam": "Kracht en beweging",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "C2",
+				"Naam": "Energieomzettingen",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Materialen",
+		"Subdomeinen": [
+			{
+				"Id": "D1",
+				"Naam": "Eigenschappen van stoffen en materialen",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "D2",
+				"Naam": "Functionele materialen",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Aarde en heelal",
+		"Subdomeinen": [
+			{
+				"Id": "E1",
+				"Naam": "Zonnestelsel en heelal",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "E2",
+				"Naam": "Aarde en klimaat*",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Menselijk lichaam",
+		"Subdomeinen": [
+			{
+				"Id": "F",
+				"Naam": "Menselijk lichaam*",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Meten en regelen",
+		"Subdomeinen": [
+			{
+				"Id": "G1",
+				"Naam": "Gebruik van elektriciteit",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "G2",
+				"Naam": "Technische automatisering*",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Natuurkunde en technologie",
+		"Subdomeinen": [
+			{
+				"Id": "H",
+				"Naam": "Natuurkunde en technologie",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	},
+	{
+		"Naam": "Onderzoek en ontwerp",
+		"Subdomeinen": [
+			{
+				"Id": "I1",
+				"Naam": "Experiment",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "I2",
+				"Naam": "Modelstudie",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			},
+			{
+				"Id": "I3",
+				"Naam": "Ontwerp",
+				"Omschrijving": "Dit is een omschrijving van de vaardigheden die een kandidaat binnen dit domein zou moeten beheersen."
+			}
+		]
+	}
+]
