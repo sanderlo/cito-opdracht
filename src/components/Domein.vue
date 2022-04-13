@@ -17,6 +17,9 @@ const props = defineProps({
 
 <style lang="scss" scoped>
     .domein {
+        break-inside: avoid-column;
+        vertical-align: top;
+
         h2 {
             border-bottom: 3px solid $primary-color;
             color: $primary-color;         

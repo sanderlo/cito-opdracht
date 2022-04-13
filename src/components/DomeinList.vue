@@ -1,5 +1,10 @@
 <template>
   <div id="domein-list">
+    <div id="matrijs-btn">
+      <v-btn color="#153a4d">
+        Mijn matrijs<v-icon dark right>mdi-arrow-right</v-icon>
+      </v-btn>
+    </div>
     <Domein v-for="(domein) in domeinen" :key="domein" :domein="domein" />
   </div>
 </template>
@@ -26,10 +31,12 @@ const domeinen = computed(() => store.state.domeinen)
   border-radius: 0.3rem;
   box-shadow: 1px 2px 2px #888888;
   padding: 30px;
+  position: relative;
 
-  > div {
-    break-inside: avoid-column;
-    vertical-align: top;
+  #matrijs-btn{
+    position: absolute;
+    right: -30px;
+    top: 20px;
   }
 }
 </style>
