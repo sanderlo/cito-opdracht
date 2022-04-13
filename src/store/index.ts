@@ -51,6 +51,8 @@ export default createStore<State>({
     },
     hideModal({ commit }){
       commit('setModalShow', false);
+      commit('setModalTitle', '');
+      commit('setModalContent', '');
     }
   }
 })

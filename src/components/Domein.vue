@@ -13,14 +13,13 @@ import Subdomein from './Subdomein.vue';
 const props = defineProps({
   domein: Object
 })
-
 </script>
 
 <style lang="scss" scoped>
     .domein {
         h2 {
-            border-bottom: 3px solid #3e676c;
-            color: #3e676c;            
+            border-bottom: 3px solid $primary-color;
+            color: $primary-color;         
         }
     }
 </style>

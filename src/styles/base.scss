@@ -1,0 +1,33 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  background-image: url('@/assets/image/background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  > div {
+    padding: 40px 5px 5px 5px;
+  }
+}
+
+h1 {
+  font-size: 24px;
+  padding-left: 35px;
+  color: $primary-color;
+}
+
+h2 {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px 5px;
+}
+
+.v-list--density-default.v-list--one-line .v-list-item {
+  padding: 5px 10px;
+  min-height: 36px;
+}

@@ -13,20 +13,25 @@ const props = defineProps({
 })
 
 function toonInfo() {
-  store.dispatch('showModal', {
-      title: props.subdomein.Id + ' ' + props.subdomein.Naam,
+  const title = props.subdomein.Id + ' ' + props.subdomein.Naam;
+  if(store.state.modal.title == title){
+    store.dispatch('hideModal');
+  }
+  else{
+    store.dispatch('showModal', {
+      title: title,
       content:  props.subdomein.Omschrijving
-  });
+    });
+  }
 }
-
 </script>
 
 <style lang="scss">
 .subdomein {
+    color: $primary-color;
     cursor: pointer;
         &:hover{
-          // border: 1px solid #77cfcc;
-          background-color: #77cfcc;
+          background-color: $secondary-color;
         } 
 }
 </style>

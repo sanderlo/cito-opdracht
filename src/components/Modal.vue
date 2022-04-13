@@ -17,7 +17,6 @@ const modal = computed(() => store.state.modal)
 function hideModal() {
   store.dispatch('hideModal');
 }
-
 </script>
 
 <style scoped lang="scss">
